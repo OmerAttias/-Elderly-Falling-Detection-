@@ -6,16 +6,6 @@ import time
 import RPi.GPIO as GPIO
 
 
-# define the buzzer sensor
-# it tells which pin nunbering system
-# i am going to use.
-GPIO.setmode(GPIO.BOARD)
-# define the buzzer channel as output
-GPIO.setup(32, GPIO.OUT)
-# define the the channel and the frequency.
-p = GPIO.PWM(32, 600)
-
-
 class PID_Controll:
     def __init__(self, P, I, D):
         self.Kp = P
@@ -68,6 +58,16 @@ car_servo = YB_Pcb_Car.YB_Pcb_Car()
 # it will start at 90 degrees
 car_servo.Ctrl_Servo(1,90)
 car_servo.Ctrl_Servo(2,90)
+
+# define the buzzer sensor
+# it tells which pin nunbering system
+# i am going to use.
+GPIO.setmode(GPIO.BOARD)
+# define the buzzer channel as output
+GPIO.setup(32, GPIO.OUT)
+# define the the channel and the frequency.
+p = GPIO.PWM(32, 600)
+
 
 # Putting values Kp,Ki,Kd to the PID controll class i have just define
 xservo_pid = PID_Controll(0.5 , 0.2, 0.009)

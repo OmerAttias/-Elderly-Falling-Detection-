@@ -52,4 +52,5 @@ import time
 import RPi.GPIO as GPIO
 ```
 
+## "Image processing - line detection"
 

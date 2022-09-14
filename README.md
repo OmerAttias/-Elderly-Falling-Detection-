@@ -18,9 +18,11 @@ I used a "Yahboom Raspbot AI Vision Robot Car".
 
 Raspbot is specially designed for AI beginners to learn AI at the lowest cost and include all you need for this project.
 
-Link to the purchase page -
+Link to the purchase page:
 
 https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
+
+**for those who pass the purchase, it's available to use only the image processing part which needs only camera**
 
 ## " installation packages "
 

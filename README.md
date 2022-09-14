@@ -1,6 +1,6 @@
 # "Elderly Falling Detection"
 
-A concept project for elderly saftely walking.
+A concept project for elderly safety walking.
 
 ## "Description"
 

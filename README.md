@@ -27,6 +27,7 @@ https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
 
 <img src="https://user-images.githubusercontent.com/101269937/190184712-ad14d2e9-e70a-43a0-9437-20c94b0c1d50.jpg" width="300" height="200">
 
+### "Note!"
 **for those who pass the purchase, it's available to use only the image processing part which include only camera component**
 
 ## " installation packages "

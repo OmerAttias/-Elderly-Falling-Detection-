@@ -18,9 +18,15 @@ I used a "Yahboom Raspbot AI Vision Robot Car".
 
 Raspbot is specially designed for AI beginners to learn AI at the lowest cost and include all you need for this project.
 
+It has a Customized package (YB_Pcb_Car) that does the integration between the overall components and the raspberry pi. 
+
 Link to the purchase page:
 
 https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
+
+
+![Raspboot](https://user-images.githubusercontent.com/101269937/190167567-3e930e90-e77c-4163-a30d-87be3b438ec5.png)
+
 
 **for those who pass the purchase, it's available to use only the image processing part which needs only camera**
 

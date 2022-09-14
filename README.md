@@ -25,7 +25,7 @@ Link to the purchase page:
 https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
 
 
-![Raspboot](https://user-images.githubusercontent.com/101269937/190167567-3e930e90-e77c-4163-a30d-87be3b438ec5.png)
+![Raspboot](https://user-images.githubusercontent.com/101269937/190167567-3e930e90-e77c-4163-a30d-87be3b438ec5.png = 100X100)
 
 
 **for those who pass the purchase, it's available to use only the image processing part which needs only camera**

@@ -2,6 +2,8 @@
 
 A concept project for elderly safety walking.
 
+Many of the 
+
 ## "Description"
 
 Tracking and angle detecting of a Walking stick.
@@ -20,7 +22,7 @@ Raspbot is specially designed for AI beginners to learn AI at the lowest cost an
 
 It has a Customized package (YB_Pcb_Car) that does the integration between the overall components and the raspberry pi. 
 
-Link to the purchase page:
+Link to purchase page:
 
 https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
 
@@ -28,7 +30,8 @@ https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
 <img src="https://user-images.githubusercontent.com/101269937/190184712-ad14d2e9-e70a-43a0-9437-20c94b0c1d50.jpg" width="300" height="200">
 
 ### "Note!"
-**for those who pass the purchase, it's available to use only the image processing part which include only camera component**
+
+**for those who pass the purchase, it's available to use only the image processing part where only required a camera component**
 
 ## " installation packages "
 

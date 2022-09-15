@@ -93,7 +93,7 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
  - After i detected a single line, It's time to detect the line's angle that will be the falling decision line.
  
- <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="200" height="100">
+ <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="300" height="200">
 
 
 ### final result:

@@ -2,7 +2,7 @@
 
 A concept project for elderly safety walking.
 
-<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="250" height="300">
+<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="200" height="250">
 
 
 ## "Description"
@@ -79,7 +79,8 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
   distance.
   
-  <img src="[https://user-images.githubusercontent.com/101269937/190184712-ad14d2e9-e70a-43a0-9437-20c94b0c1d50.jpg](https://user-images.githubusercontent.com/101269937/190343372-0327b9f3-cc60-40df-bd5d-bb1cfdbeee29.jpg)" width="250" height="200">
+  <img src="https://user-images.githubusercontent.com/101269937/190343702-eb95cc14-5a1c-4d0d-8c5d-0479c1f409db.jpg" width="250" height="200">
+
 
   As result The noise which goes behind and befor the measured distance, will be filterd.
   
@@ -93,13 +94,17 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
  - After i detected a single line, It's time to detect the line's angle that will be the falling decision line.
  
- 
-![optics](https://user-images.githubusercontent.com/101269937/190341685-aad37d25-9d5d-4655-be9c-3078120975ff.jpg)
+ <img src="https://user-images.githubusercontent.com/101269937/190341685-aad37d25-9d5d-4655-be9c-3078120975ff.jpg" width="250" height="200">
 
+ 
 ### final result:
 
-![imageprocssingfinal reslt](https://user-images.githubusercontent.com/101269937/190341797-ae2a3fb8-ee3e-4889-bd5f-c0756e14b1a6.png)
 
-![line tracked](https://user-images.githubusercontent.com/101269937/190342221-c742caff-76f6-499e-b82c-46cb36d39939.jpg)
+ <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+
+
+ <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+
+
 
 

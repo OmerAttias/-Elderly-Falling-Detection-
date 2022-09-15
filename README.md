@@ -70,12 +70,12 @@ I took a random photos of the line (uploaded on "Image for IP")
 <img src="https://user-images.githubusercontent.com/101269937/190342972-c689ca68-168c-45ff-8766-71e7ab8c0be9.jpg" width="250" height="200">
 
 
-- I used successive filters "Erode" and "Dilate" that are very usefull on small noise cleaning and emphasize the wanted line.
+- I used successive filters "Erode" and "Dilate" that are very useful on small noises cleaning and emphasize the wanted line object.
 
 <img src="https://user-images.githubusercontent.com/101269937/190343106-25df99bd-3ded-4734-81fd-521581d938ed.png" width="250" height="200">
 
 - Because the line detecting rely on color, I had to build more defences in case of line detecting. 
-Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line distance.
+Using simple optics theory and camera's data sheet, I succesd to guess , with minimal error, the line distance.
   
   <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="300" height="240">
 

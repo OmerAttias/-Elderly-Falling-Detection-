@@ -79,8 +79,7 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
   distance.
   
-  <img src="https://user-images.githubusercontent.com/101269937/190343702-eb95cc14-5a1c-4d0d-8c5d-0479c1f409db.jpg" width="250" height="200">
-
+  <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="300" height="200">
 
   As result The noise which goes behind and befor the measured distance, will be filterd.
   
@@ -94,16 +93,16 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
  - After i detected a single line, It's time to detect the line's angle that will be the falling decision line.
  
- <img src="https://user-images.githubusercontent.com/101269937/190341685-aad37d25-9d5d-4655-be9c-3078120975ff.jpg" width="250" height="200">
+ <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="250" height="200">
 
- 
+
 ### final result:
 
 
  <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
 
 
- <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+ <img src="[https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jp](https://user-images.githubusercontent.com/101269937/190344780-d3986cef-5bc0-43a9-9e2e-20cee3d92ef6.jpg)" width="250" height="200">
 
 
 

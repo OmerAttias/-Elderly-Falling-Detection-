@@ -101,7 +101,7 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
  
  - After i detected the desirable line, It's time to detect the line's angle that will be the falling decision line.
  
- <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="350" height="200">
+ <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="400" height="200">
 
 - Only after I ensured the success of detection in the image dimension I moved to work on video's dimension which maintained the promises results.
 

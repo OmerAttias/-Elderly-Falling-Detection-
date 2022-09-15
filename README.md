@@ -111,7 +111,7 @@ In order to detect the line in every single time i had to stay tracked.
 
 - For this mission i decided to use a basic PID control, that will allow the camera move flexibly vertically and horizontally. the most diffcuilt part on implmenting a PID contrioll is finding the k's parameters. 
 
- <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="150" height="100">
+ <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="300" height="100">
  
 
 **In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.
@@ -121,4 +121,5 @@ In order to detect the line in every single time i had to stay tracked.
 - the last mission was to have conditions to the robot's direction decision action. I used an center point and two imaginary lines which bounderd the area. The goal was to maintian the point (robot's center) between the lines and with the horizontally servo angle position ratio detemine the direction (forward, backward, right, left, static).
 
 
+ <img src="https://user-images.githubusercontent.com/101269937/190356983-2af3efe5-981f-465e-961e-bb38dba28ca2.jpg" width="250" height="200">
 

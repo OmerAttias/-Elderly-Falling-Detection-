@@ -63,7 +63,7 @@ The main mission was to detect the walking stick line as "clean" as possible.
 Algorithm summary:
 
 - Before i worked on a video, I wanted to have a success on image dimension.
-I took a random photos of the line (uploaded on "Image for IP") 
+I took a random photos of the line (uploaded on "Test images") 
 
 - I converted the image to binary (easy to work on) with using "in range" function (first move the color scale from RGB to HSV).
 

@@ -2,7 +2,8 @@
 
 A concept project for elderly safety walking.
 
-Many of the 
+![old couple photo](https://user-images.githubusercontent.com/101269937/190342365-077759ef-a176-426f-b9e6-ea2e9dcccb84.png)
+
 
 ## "Description"
 

@@ -77,7 +77,7 @@ yservo_pid = PID_Controll(0.8, 0.17, 0.0135)
 cap = cv2.VideoCapture(0, cv2.CAP_V4L)
 
 
-# constant value, represents the real line distance from the camera in mm
+# constant value, represents the real line distance from the camera in mm, used to detect the pixeld focallength
 known_distance_in_mm = 200
 # constant value, represents the real width of the line
 real_width_in_mm = 190
@@ -237,7 +237,7 @@ while(cap.isOpened()):
             car_servo.Ctrl_Servo(1, target_servoy)
             car_servo.Ctrl_Servo(2, target_servox)
 
-            # robotics part
+            # Robotics part
             # just if the system recognize line with cetain ditance it continue to movment controll
             if  60 > distance > 25:
 
@@ -265,7 +265,6 @@ while(cap.isOpened()):
 
         # ploting the video
         cv2.imshow('frame',img)
-
         # ploting the video in the filter dimmenstion
         #cv2.imshow("mask", Img_Filterd)
         cv2.waitKey(1)

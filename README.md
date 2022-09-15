@@ -12,7 +12,7 @@ The project split to two main parts:
 
 - Image Proccesing - using hough transform and other CV's technics, I created a line detecting in space. The system will track a specific line and calculates it's current angle position.
 
-- Robotics - using PID controll technic, I programmed a robot to track the line. 
+- Robotics - using PID controll technics, I programmed a robot to track a specific line in space. 
 
 ## " Before we start... "
 
@@ -56,5 +56,24 @@ import RPi.GPIO as GPIO
 
 ## "Image processing - line detection"
 
+For this part i had to filtering a lot of noise.
 
+The main mission was to detect your walking stick line as "clean" as possible.
 
+Algorithm summary:
+
+- Before i worked on a video, I wanted to have a success on image dimension.
+
+  I took a random photos of the line (uploaded on "Image for IP") 
+ 
+- I converted the image to binary (easy to work on) with using HSV scale.
+
+![before filtering](https://user-images.githubusercontent.com/101269937/190336605-379e1eb5-3874-4007-9e9e-59a923d46ae5.png)
+
+- used to successive filters "Erode" and "Dilate" that are very usefull on small noise cleaning and emphasize the wanted line.
+
+![after filtering](https://user-images.githubusercontent.com/101269937/190337076-cfba1ef7-ca40-4d9a-8545-b46114f79e8d.png)
+
+- Because the detecting rely on color, I had to build mofe defence on case of line detecting. 
+
+  Using simple 

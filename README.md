@@ -2,12 +2,12 @@
 
 A concept project for elderly safety walking.
 
-<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="170" height="200">
+<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="170" height="170">
 
 
 ## "Description"
 
-Tracking and angle detecting of a Walking stick.
+Tracking and angle detecting of a walking stick.
 
 The project split to two main parts:
 
@@ -94,6 +94,7 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
  <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="350" height="200">
 
+- Only after I ensured the success of detection in the image dimension I moved to work on the video dimension which maintained the promises results.
 
 ### Final Result:
 
@@ -103,6 +104,21 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
 
  <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
 
+
+## "Robotics - PID controll"
+
+In order to detect the line in every single time i had to stay tracked. 
+
+- For this mission i decided to use a basic PID control, that will allow the camera move flexibly vertically and horizontally. the most diffcuilt part on implmenting a PID contrioll is finding the k's parameters. 
+
+ <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="150" height="100">
+ 
+
+**In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.
+
+- After successing controll the two servoes Smoothly as possible, i moved to the robot movement. For that i used raspboot's libary (YB_Pcb_Car) which offers a simple direction built-in functions that controll the 4 DC motors that conects to the raspberrypi with easy implementaion. 
+
+- the last mission was to have conditions to the robot's direction decision action. I used an center point and two imaginary lines which bounderd the area. The goal was to maintian the point (robot's center) between the lines and with the horizontally servo angle position ratio detemine the direction (forward, backward, right, left, static).
 
 
 

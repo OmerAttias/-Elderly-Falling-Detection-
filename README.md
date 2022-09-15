@@ -98,8 +98,7 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
 
 ### Final Result:
 
-
- <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+<img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
 
 
  <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">

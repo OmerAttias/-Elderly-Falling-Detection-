@@ -2,7 +2,7 @@
 
 A concept project for elderly safety walking.
 
-<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="250" height="200">
+<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="250" height="300">
 
 
 ## "Description"
@@ -65,22 +65,22 @@ Algorithm summary:
 - Before i worked on a video, I wanted to have a success on image dimension.
 I took a random photos of the line (uploaded on "Image for IP") 
 
-- I converted the image to binary (easy to work on) with using HSV scale.
+- I converted the image to binary (easy to work on) with using HSV scale
 
-![before filtering](https://user-images.githubusercontent.com/101269937/190336605-379e1eb5-3874-4007-9e9e-59a923d46ae5.png)
+<img src="https://user-images.githubusercontent.com/101269937/190342972-c689ca68-168c-45ff-8766-71e7ab8c0be9.jpg" width="250" height="200">
+
 
 - used to successive filters "Erode" and "Dilate" that are very usefull on small noise cleaning and emphasize the wanted line.
 
-![after filtering](https://user-images.githubusercontent.com/101269937/190337076-cfba1ef7-ca40-4d9a-8545-b46114f79e8d.png)
+<img src="https://user-images.githubusercontent.com/101269937/190343106-25df99bd-3ded-4734-81fd-521581d938ed.png" width="250" height="200">
 
 - Because the line detecting rely on color, I had to build more defences in case of line detecting. 
 Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line 
  
   distance.
   
-  ![distance detectt](https://user-images.githubusercontent.com/101269937/190341882-1c0ddfb0-9224-4b0d-94ee-43b593a6dc29.png)
+  <img src="[https://user-images.githubusercontent.com/101269937/190184712-ad14d2e9-e70a-43a0-9437-20c94b0c1d50.jpg](https://user-images.githubusercontent.com/101269937/190343372-0327b9f3-cc60-40df-bd5d-bb1cfdbeee29.jpg)" width="250" height="200">
 
-  
   As result The noise which goes behind and befor the measured distance, will be filterd.
   
  - Until this point, the line was note even detected. 

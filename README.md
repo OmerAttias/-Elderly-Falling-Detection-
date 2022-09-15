@@ -58,7 +58,7 @@ import RPi.GPIO as GPIO
 ## "Image processing - line detection"
 
 For this part i had to filtering a lot of noise.
-The main mission was to detect your walking stick line as "clean" as possible.
+The main mission was to detect the walking stick line as "clean" as possible.
 
 Algorithm summary:
 

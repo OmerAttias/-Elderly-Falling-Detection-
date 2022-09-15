@@ -74,6 +74,19 @@ Algorithm summary:
 
 ![after filtering](https://user-images.githubusercontent.com/101269937/190337076-cfba1ef7-ca40-4d9a-8545-b46114f79e8d.png)
 
-- Because the detecting rely on color, I had to build mofe defence on case of line detecting. 
+- Because the line detecting rely on color, I had to build more defences in case of line detecting. 
 
-  Using simple 
+  Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line 
+ 
+  distance.
+  
+  ![distance detectt](https://user-images.githubusercontent.com/101269937/190339034-4019c747-ccec-459a-ae12-853f146d72f1.png)
+
+  As result The noise which goes behind and befor the measured distance, will be filterd.
+  
+  - Until this point, the line was note even detected. **reminder:The main goal of the previous actions was the maximize the chances chances to detect the correct line in the cleanest way**
+  
+  ![after filtering](https://user-images.githubusercontent.com/101269937/190339959-4824ae24-f2ab-4c6e-abf3-3a87c7ef600a.png)
+
+
+ - 

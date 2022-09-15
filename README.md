@@ -75,18 +75,17 @@ I took a random photos of the line (uploaded on "Image for IP")
 <img src="https://user-images.githubusercontent.com/101269937/190343106-25df99bd-3ded-4734-81fd-521581d938ed.png" width="250" height="200">
 
 - Because the line detecting rely on color, I had to build more defences in case of line detecting. 
-Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line 
- 
-  distance.
+Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line distance.
   
   <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="300" height="240">
 
-  As result The noise which goes behind and befor the measured distance, will be filterd.
+
+  As a result The noise which goes behind and before the measured distance, will be filterd.
   
  - Until this point, the line was note even detected. 
  **reminder:The main goal of the previous actions was the maximize the chances chances to detect the correct line in the cleanest way**
   
-  ![after filtering](https://user-images.githubusercontent.com/101269937/190339959-4824ae24-f2ab-4c6e-abf3-3a87c7ef600a.png)
+ <img src="https://user-images.githubusercontent.com/101269937/190346269-bb029a17-0616-412c-913f-e6a32200372b.jpg" width="250" height="200">
 
 
  - To detect the line i used the "Hough transform" function. (**it's emposibiile to detect a single line only with this funcion**).

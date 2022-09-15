@@ -96,7 +96,7 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
 
 - Only after I ensured the success of detection in the image dimension I moved to work on video's dimension which maintained the promises results.
 
-- On the video's dimension, every time the system will detect fall (line's angle below 45 degrees) the buzzer component will alert.
+- On video's dimension, every time the system will detect fall (line's angle below 45 degrees) the buzzer component will alert.
 
 ### Final Result:
 

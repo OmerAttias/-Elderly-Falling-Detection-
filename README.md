@@ -57,15 +57,13 @@ import RPi.GPIO as GPIO
 ## "Image processing - line detection"
 
 For this part i had to filtering a lot of noise.
-
 The main mission was to detect your walking stick line as "clean" as possible.
 
 Algorithm summary:
 
 - Before i worked on a video, I wanted to have a success on image dimension.
+I took a random photos of the line (uploaded on "Image for IP") 
 
-  I took a random photos of the line (uploaded on "Image for IP") 
- 
 - I converted the image to binary (easy to work on) with using HSV scale.
 
 ![before filtering](https://user-images.githubusercontent.com/101269937/190336605-379e1eb5-3874-4007-9e9e-59a923d46ae5.png)
@@ -75,18 +73,30 @@ Algorithm summary:
 ![after filtering](https://user-images.githubusercontent.com/101269937/190337076-cfba1ef7-ca40-4d9a-8545-b46114f79e8d.png)
 
 - Because the line detecting rely on color, I had to build more defences in case of line detecting. 
-
-  Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line 
+Using simple optics theory and camera data sheet, I succesd to guess , with minimal error, the line 
  
   distance.
   
-  ![distance detectt](https://user-images.githubusercontent.com/101269937/190339034-4019c747-ccec-459a-ae12-853f146d72f1.png)
+  ![distance detectt](https://user-images.githubusercontent.com/101269937/190341882-1c0ddfb0-9224-4b0d-94ee-43b593a6dc29.png)
 
+  
   As result The noise which goes behind and befor the measured distance, will be filterd.
   
-  - Until this point, the line was note even detected. **reminder:The main goal of the previous actions was the maximize the chances chances to detect the correct line in the cleanest way**
+ - Until this point, the line was note even detected. 
+ **reminder:The main goal of the previous actions was the maximize the chances chances to detect the correct line in the cleanest way**
   
   ![after filtering](https://user-images.githubusercontent.com/101269937/190339959-4824ae24-f2ab-4c6e-abf3-3a87c7ef600a.png)
 
 
- - 
+ - To detect the line i used the "Hough transform" function. (**it's emposibiile to detect a single line only with this funcion**).
+ 
+ - After i detected a single line, It's time to detect the line's angle that will be the falling decision line.
+ 
+ 
+![optics](https://user-images.githubusercontent.com/101269937/190341685-aad37d25-9d5d-4655-be9c-3078120975ff.jpg)
+
+final result:
+
+```python
+![imageprocssingfinal reslt](https://user-images.githubusercontent.com/101269937/190341797-ae2a3fb8-ee3e-4889-bd5f-c0756e14b1a6.png)
+```

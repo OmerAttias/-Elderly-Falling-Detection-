@@ -65,7 +65,7 @@ Algorithm summary:
 - Before i worked on a video, I wanted to have a success on image dimension.
 I took a random photos of the line (uploaded on "Image for IP") 
 
-- I converted the image to binary (easy to work on) with using HSV scale
+- I converted the image to binary (easy to work on) with using "in range" function (first move the color scale from RGB to HSV).
 
 <img src="https://user-images.githubusercontent.com/101269937/190342972-c689ca68-168c-45ff-8766-71e7ab8c0be9.jpg" width="250" height="200">
 

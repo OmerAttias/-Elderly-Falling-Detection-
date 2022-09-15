@@ -115,11 +115,11 @@ In order to detect the line in every single time i had to stay tracked.
 <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
  
 
-**In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.
+**In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.**
 
-- After successing controll the two servoes Smoothly as possible, i moved to the robot movement. For that i used raspboot's libary (YB_Pcb_Car) which offers a simple direction built-in functions that controll the 4 DC motors that conects to the raspberrypi with easy implementaion. 
+- After successing controll the two servoes Smoothly and synchronizly as possible, i moved to the robot movement. For that i used raspboot's libary (YB_Pcb_Car) which offers a simple direction built-in functions that controll the 4 DC motors that conects to the raspberrypi with easy implementaion. 
 
-- the last mission was to have conditions to the robot's direction decision action. I used an center point and two imaginary lines which bounderd the area. The goal was to maintian the point (robot's center) between the lines and with the horizontally servo angle position ratio detemine the direction (forward, backward, right, left, static).
+- the last mission was to have conditions to the robot's direction decision action. I used a center point and two imaginary lines which bounderd the area. The goal was to maintian the point (represents the robot's center) between the lines and with the horizontally servo angle position ratio detemine the direction (forward, backward, right, left, static).
 
 
  <img src="https://user-images.githubusercontent.com/101269937/190356983-2af3efe5-981f-465e-961e-bb38dba28ca2.jpg" width="250" height="200">

@@ -70,7 +70,7 @@ I took a random photos of the line (uploaded on "Image for IP")
 <img src="https://user-images.githubusercontent.com/101269937/190342972-c689ca68-168c-45ff-8766-71e7ab8c0be9.jpg" width="250" height="200">
 
 
-- used to successive filters "Erode" and "Dilate" that are very usefull on small noise cleaning and emphasize the wanted line.
+- I used to successive filters "Erode" and "Dilate" that are very usefull on small noise cleaning and emphasize the wanted line.
 
 <img src="https://user-images.githubusercontent.com/101269937/190343106-25df99bd-3ded-4734-81fd-521581d938ed.png" width="250" height="200">
 

@@ -95,7 +95,7 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="300" height="200">
 
 
-### final result:
+### Final Result:
 
 
  <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">

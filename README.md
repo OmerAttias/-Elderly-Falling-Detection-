@@ -95,8 +95,10 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
 ![optics](https://user-images.githubusercontent.com/101269937/190341685-aad37d25-9d5d-4655-be9c-3078120975ff.jpg)
 
-final result:
+### final result:
 
-```python
 ![imageprocssingfinal reslt](https://user-images.githubusercontent.com/101269937/190341797-ae2a3fb8-ee3e-4889-bd5f-c0756e14b1a6.png)
-```
+
+![line tracked](https://user-images.githubusercontent.com/101269937/190342221-c742caff-76f6-499e-b82c-46cb36d39939.jpg)
+
+

@@ -55,7 +55,7 @@ import time
 import RPi.GPIO as GPIO
 ```
 
-## "Image processing - line detection"
+## "Image processing - Line Detection"
 
 For this part i had to filtering a lot of noise.
 The main mission was to detect the walking stick line as "clean" as possible.

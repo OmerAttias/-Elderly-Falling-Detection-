@@ -2,7 +2,7 @@
 
 A concept project for elderly safety walking.
 
-<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="200" height="250">
+<img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="170" height="200">
 
 
 ## "Description"
@@ -79,7 +79,7 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  
   distance.
   
-  <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="300" height="200">
+  <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="270" height="200">
 
   As result The noise which goes behind and befor the measured distance, will be filterd.
   
@@ -102,7 +102,7 @@ Using simple optics theory and camera data sheet, I succesd to guess , with mini
  <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
 
 
- <img src="[https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jp](https://user-images.githubusercontent.com/101269937/190344780-d3986cef-5bc0-43a9-9e2e-20cee3d92ef6.jpg)" width="250" height="200">
+ <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
 
 
 

@@ -2,9 +2,7 @@
 
 A concept project for elderly safety walking.
 
-<p align="center">
 <img src="https://user-images.githubusercontent.com/101269937/190342631-153a98b7-d131-4a3e-ad9d-dfab9ff3f831.jpg" width="170" height="170">
-</p>
 
 
 ## "Description"
@@ -102,7 +100,7 @@ I took a random photos of the line (uploaded on "Test images")
 Using simple optics theory and camera's data sheet, I succesd to guess , with minimal error, the object distance (at this point the object dosent detected as a line for the algrithm yet).
 
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="300" height="240">
+  <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="400" height="300">
   </p>
 
 
@@ -131,10 +129,14 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
 
 ### Final Result:
 
+  <p align="center">
   <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+  </p>
 
-
+  <p align="center">
   <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
+  </p>
+
 
 
 ## "Robotics - PID controll"
@@ -145,8 +147,10 @@ In order to detect the line in every single time i had to stay tracked.
 
 ### PID formula:
 
+ <p align="center">
  <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
- 
+ </p>
+
 
 **In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.**
 
@@ -154,6 +158,7 @@ In order to detect the line in every single time i had to stay tracked.
 
 - the last mission was to have conditions to the robot's direction decision action. I used a center point and two imaginary lines which bounderd the area. The goal was to maintian the point (represents the robot's center) between the lines and with the horizontally servo angle position ratio detemine the direction (forward, backward, right, left, static).
 
-
+ <p align="center">
  <img src="https://user-images.githubusercontent.com/101269937/190356983-2af3efe5-981f-465e-961e-bb38dba28ca2.jpg" width="250" height="200">
+ </p>
 

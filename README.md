@@ -115,10 +115,10 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
 
 ### Final Result:
 
-    <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+  <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
 
 
-    <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
+  <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
 
 
 ## "Robotics - PID controll"
@@ -129,7 +129,7 @@ In order to detect the line in every single time i had to stay tracked.
 
 ### PID formula:
 
-  <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
+ <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
  
 
 **In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.**

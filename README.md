@@ -100,14 +100,14 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
  - Until this point, the line was note even detected. 
  **reminder:The main goal of the previous actions was the maximize the chances to detect the correct line in the cleanest way**
   
- <img src="https://user-images.githubusercontent.com/101269937/190346269-bb029a17-0616-412c-913f-e6a32200372b.jpg" width="250" height="200">
+  <img src="https://user-images.githubusercontent.com/101269937/190346269-bb029a17-0616-412c-913f-e6a32200372b.jpg" width="250" height="200">
 
 
  - To detect the line i used the "Hough transform" function (**it's impossible to detect a single line with this funcion only**) and with the help of the other filters i Finally succeessed to detect a single line!
  
  - After i detected the desirable line, It's time to detect the line's angle that will be the falling decision line.
  
- <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="400" height="200">
+  <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="400" height="200">
 
 - Only after I ensured the success of detection in the image dimension I moved to work on video's dimension which maintained the promises results.
 
@@ -115,10 +115,10 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
 
 ### Final Result:
 
-<img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
+    <img src="https://user-images.githubusercontent.com/101269937/190343890-69875fd5-7c41-41ef-ab80-a37fce02ff99.jpg" width="250" height="200">
 
 
- <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
+    <img src="https://user-images.githubusercontent.com/101269937/190344988-56b1cded-7397-4012-ba3d-a23b626d79bd.jpg" width="250" height="200">
 
 
 ## "Robotics - PID controll"
@@ -129,7 +129,7 @@ In order to detect the line in every single time i had to stay tracked.
 
 ### PID formula:
 
-<img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
+  <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
  
 
 **In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.**

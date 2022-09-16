@@ -13,10 +13,12 @@ The project split to two main parts:
 
 - Image Proccesing - using hough transform and other CV's technics, I created a line detecting in space. The system will track a specific line and calculates it's current angle position.
   - components:
+  
    1. camera
 
 - Robotics - using PID controll technics, I programmed a robot to track a specific line in space. 
   - components:
+
   1. raspberrypi
   2. pi camera 
   3. 2 servo motors (vertical and horizontal)

@@ -46,8 +46,10 @@ Raspbot is specially designed for AI beginners to learn AI at the lowest cost an
 
 https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
 
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/101269937/190184712-ad14d2e9-e70a-43a0-9437-20c94b0c1d50.jpg" width="250" height="200">
+</p>
+
 
 ### "Note"
 
@@ -84,17 +86,24 @@ I took a random photos of the line (uploaded on "Test images")
 
 - I converted the image to binary (easy to work on) with using "in range" function (first move the color scale from RGB to HSV).
 
-  <img src="https://user-images.githubusercontent.com/101269937/190342972-c689ca68-168c-45ff-8766-71e7ab8c0be9.jpg" width="250" height="200">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/101269937/190342972-c689ca68-168c-45ff-8766-71e7ab8c0be9.jpg" width="250" height="200">
+</p>
 
 
 - I used successive filters "Erode" and "Dilate" that are very useful on small noises cleaning and emphasize the wanted object.
 
+  <p align="center">
   <img src="https://user-images.githubusercontent.com/101269937/190343106-25df99bd-3ded-4734-81fd-521581d938ed.png" width="250" height="200">
+  </p>
+
 
 - Because the line detecting rely on color, I had to build more defences in case of line detecting. 
 Using simple optics theory and camera's data sheet, I succesd to guess , with minimal error, the object distance (at this point the object dosent detected as a line for the algrithm yet).
 
+  <p align="center">
   <img src="https://user-images.githubusercontent.com/101269937/190344411-85511f2c-467d-4238-8261-231ae14b42af.jpg" width="300" height="240">
+  </p>
 
 
   As a result The noise which goes behind and before the measured object's distance, will be filterd.
@@ -102,14 +111,19 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
  - Until this point, the line was note even detected. 
  **reminder:The main goal of the previous actions was the maximize the chances to detect the correct line in the cleanest way**
   
+  <p align="center">
   <img src="https://user-images.githubusercontent.com/101269937/190346269-bb029a17-0616-412c-913f-e6a32200372b.jpg" width="250" height="200">
+  </p>
 
 
  - To detect the line i used the "Hough transform" function (**it's impossible to detect a single line with this funcion only**) and with the help of the other filters i Finally succeessed to detect a single line!
  
  - After i detected the desirable line, It's time to detect the line's angle that will be the falling decision line.
  
+   <p align="center">
   <img src="https://user-images.githubusercontent.com/101269937/190344729-08dba308-5548-44ae-97b6-00a6e3b181cb.jpg" width="400" height="200">
+   </p>
+
 
 - Only after I ensured the success of detection in the image dimension I moved to work on video's dimension which maintained the promises results.
 

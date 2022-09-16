@@ -147,9 +147,7 @@ In order to detect the line in every single time i had to stay tracked.
 
 ### PID formula:
 
- <p align="center">
  <img src="https://user-images.githubusercontent.com/101269937/190350613-011d3925-88b3-4667-b200-9855acd01595.jpg" width="200" height="50">
- </p>
 
 
 **In order to synchronize the servo movement parameter (presented by the angle changes) with the PID output, i had to normalize the results (i did it for both servoes). Works great linearly.**

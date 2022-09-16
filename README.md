@@ -40,7 +40,7 @@ Raspbot is specially designed for AI beginners to learn AI at the lowest cost an
 
  - The easy access to the components programming saves a lot of technical job and makes it easier to focus on the image processing.
 
-Link to purchase page:
+>Link to purchase page:
 
 https://category.yahboom.net/products/raspbot?_pos=1&_sid=b0c180d95&_ss=r
 

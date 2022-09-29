@@ -21,7 +21,7 @@ The project split to two main parts:
 
 - Robotics - using PID controll technics, I programmed a robot to track a specific line in space.
  
-  - components:
+  - Components:
 
 
    1. Raspberrypi

@@ -17,19 +17,19 @@ The project split to two main parts:
   - Components:
   
   
-   1. Camera
+    1. Camera
 
 - Robotics - using PID controll technics, I programmed a robot to track a specific line in space.
  
   - Components:
 
 
-   1. Raspberrypi
-   2. Pi Camera 
-   3. 2 Servo Motors (vertical and horizontal)
-   4. 4 DC Motors
-   5. 4 Wheels
-   6. Portable Power Supply (Preferably 12V)
+    1. Raspberrypi
+    2. Pi Camera 
+    3. 2 Servo Motors (vertical and horizontal)
+    4. 4 DC Motors
+    5. 4 Wheels
+    6. Portable Power Supply (Preferably 12V)
 
 ## " Before we start... "
  

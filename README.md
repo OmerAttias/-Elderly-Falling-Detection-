@@ -107,7 +107,7 @@ Using simple optics theory and camera's data sheet, I succesd to guess , with mi
 
   As a result The noise which goes behind and before the measured object's distance, will be filterd.
   
- - Until this point, the line was note even detected. 
+ - Until this point, the line was not even detected. 
  **reminder:The main goal of the previous actions was to maximize the chances to detect the correct line in the cleanest way**
   
   <p align="center">
